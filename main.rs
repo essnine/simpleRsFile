@@ -17,4 +17,7 @@ fn main() {
     println!("9/2={}", 9u32 / 2);
     println!("9/2={}", 9.0 / 2.0);
     println!("3*6={}", 3*6);
+
+    let is_bigger = 1 > 4;
+    println!("{}", is_bigger); // prints false
 }
